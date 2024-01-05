@@ -9,13 +9,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
-    LayoutComponent
   ],
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    RouterModule,
-    SidebarComponent
-  ]
+    RouterModule  ]
 })
 export class DashboardModule { }
